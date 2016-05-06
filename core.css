@@ -1,0 +1,28 @@
+ul {
+  border: 0px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li.list {
+  color: #111;
+  padding: 10px;
+}
+
+li.list:nth-child(odd) {
+  background: #EFEFEF;
+}
+li.list:nth-child(even) {
+  background: #FFFFFF;
+}
+
+input.dark {
+  color: #111;
+}
+
+.pull-right {
+  margin-top: -3px;
+  margin-left: 3px;
+}
+
